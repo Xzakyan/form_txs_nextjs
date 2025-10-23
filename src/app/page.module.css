@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* ini penting supaya tinggi 1 layar penuh */
+    background: #f5f5ff; /* warna background lembut */
+}
+
+/* ==== Card putih di tengah ==== */
+.formCard {
+    background: #541f1f;
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+    width: 340px;
+}
+
+/* ==== Judul ==== */
+.title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+
+.judul {
+    font-size: 100px;
+}
+/* ==== Form layout ==== */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* ==== Setiap field input ==== */
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+    .field label {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    .field input {
+        padding: 10px 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        transition: 0.2s;
+        font-size: 14px;
+    }
+
+/* ==== Tombol ==== */
+.button {
+    background: #0026ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: transform 0.15s ease, opacity 0.2s;
+}
+
+    .button:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+    }
+
+.error {
+    color: #ef4444; /* merah */
+    font-size: 13px;
+    margin-top: 4px;
+    margin-left: 2px;
+}
